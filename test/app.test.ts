@@ -1,7 +1,7 @@
 import request from 'supertest';
 
 import app from '../src/app';
-
+// loading express app
 describe('app', () => {
   it('responds with a not found message', (done) => {
     request(app)
